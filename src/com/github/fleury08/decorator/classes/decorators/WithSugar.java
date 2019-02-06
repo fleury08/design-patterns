@@ -4,7 +4,8 @@ import com.github.fleury08.decorator.classes.abstracts.CoffeeDecorator;
 import com.github.fleury08.decorator.interfaces.ICoffee;
 
 public class WithSugar extends CoffeeDecorator {
-    protected WithSugar(ICoffee coffee) {
+
+    public WithSugar(ICoffee coffee) {
         super(coffee);
     }
 

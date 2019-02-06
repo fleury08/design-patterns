@@ -5,7 +5,7 @@ import com.github.fleury08.decorator.interfaces.ICoffee;
 
 public class Decaffinated extends CoffeeDecorator {
 
-    protected Decaffinated(ICoffee coffee) {
+    public Decaffinated(ICoffee coffee) {
         super(coffee);
     }
 

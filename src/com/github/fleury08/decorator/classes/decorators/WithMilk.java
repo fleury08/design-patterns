@@ -5,7 +5,7 @@ import com.github.fleury08.decorator.interfaces.ICoffee;
 
 public class WithMilk extends CoffeeDecorator {
 
-    protected WithMilk(ICoffee coffee) {
+    public WithMilk(ICoffee coffee) {
         super(coffee);
     }
 
